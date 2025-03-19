@@ -1,0 +1,30 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f8ff;
+}
+
+/* Header */
+header {
+    background: #007bff;
+    color: white;
+    padding: 20px;
+}
+
+/* Canvas */
+canvas {
+    display: block;
+    margin: 20px auto;
+    border: 2px solid #000;
+    background: url('images/fondo2.jpg') no-repeat center center;
+    background-size: cover;
+    cursor: url('images/cursor.cur'), auto; /* Puntero personalizado */
+}
+
+/* Score */
+#score {
+    font-size: 20px;
+    margin-top: 10px;
+}
